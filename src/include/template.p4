@@ -254,8 +254,6 @@ table table_generate_digest_##X {										\
 	}																	\
 	actions {															\
 		do_gen_digest;												\
-		do_gen_watch_digest;   									    \
-		do_gen_debug_digest;										\
 	}																	\
 }																		\
 table table_subtract_##X {												\
